@@ -93,7 +93,7 @@ public struct ThawEmptyState: View {
                 title: "Something went wrong",
                 caption: "A longer caption that wraps onto a second line to show how the placeholder centres its text.",
                 actionTitle: "Try Again",
-                action: {}
+                action: { /* A preview has nothing to run. */ }
             )
         }
         .frame(width: 720, height: 220)
