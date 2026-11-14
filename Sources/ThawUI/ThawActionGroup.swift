@@ -90,3 +90,24 @@ public extension ButtonStyle where Self == ThawGroupedButtonStyle {
         ThawGroupedButtonStyle()
     }
 }
+
+#if DEBUG
+    #Preview("Action group") {
+        VStack(alignment: .leading, spacing: 16) {
+            ThawActionGroup {
+                Button("Back") {}
+                Button("Forward") {}
+            }
+            ThawActionGroup {
+                Button("One") {}
+                Button("Two") {}
+                Button("Three, disabled") {}.disabled(true)
+            }
+            ThawActionGroup {
+                Button("Alone") {}
+            }
+        }
+        .buttonStyle(.thawGrouped)
+        .padding()
+    }
+#endif
