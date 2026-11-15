@@ -342,11 +342,11 @@ public extension ReadingPage where Accessory == EmptyView {
                     }
                 },
                 links: {
-                    Button("Website") {}
-                    Button("Source") {}
+                    Button("Website") { /* Preview only. */ }
+                    Button("Source") { /* Preview only. */ }
                 },
                 accessory: {
-                    Button("Filter") {}
+                    Button("Filter") { /* Preview only. */ }
                 }
             )
             .frame(width: 900, height: 600)

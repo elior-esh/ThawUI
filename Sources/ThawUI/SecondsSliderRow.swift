@@ -152,8 +152,8 @@ private struct SliderLabelAlignmentModifier: ViewModifier {
                 }
                 LabeledContent("More") {
                     MoreActionsMenu(label: "More actions") {
-                        Button("Reset") {}
-                        Button("Copy") {}
+                        Button("Reset") { /* Preview only. */ }
+                        Button("Copy") { /* Preview only. */ }
                     }
                 }
             }

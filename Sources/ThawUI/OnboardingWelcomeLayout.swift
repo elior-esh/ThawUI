@@ -157,7 +157,7 @@ private struct OnboardingStepAnimation<Value: Equatable>: ViewModifier {
         var body: some View {
             OnboardingWelcomeLayout(
                 continueTitle: Text("Continue"),
-                onContinue: {},
+                onContinue: { /* Preview only. */ },
                 hero: {
                     Image(systemName: "sparkles")
                         .font(.system(size: 64))
@@ -173,7 +173,7 @@ private struct OnboardingStepAnimation<Value: Equatable>: ViewModifier {
                     OnboardingQuietButton(
                         title: Text("Not now"),
                         help: Text("Closes setup and leaves everything off"),
-                        action: {}
+                        action: { /* Preview only. */ }
                     )
                 }
             )

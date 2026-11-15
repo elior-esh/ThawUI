@@ -218,8 +218,8 @@ public struct PermissionStatusControl: View {
         var hasSettingsPane = true
 
         // The sample does nothing: the preview must not ask the system for anything.
-        func performRequest() {}
-        func openSettingsPane() {}
+        func performRequest() { /* Preview only. */ }
+        func openSettingsPane() { /* Preview only. */ }
     }
 
     private enum PermissionPreviewData {

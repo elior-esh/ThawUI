@@ -127,9 +127,9 @@ public struct SettingsWarningPill: View {
                 message: "A title and a message that is long enough to wrap onto a second line in a narrow window.",
                 tint: .orange,
                 actionTitle: "Grant access",
-                action: {},
+                action: { /* Preview only. */ },
                 secondaryActionTitle: "Open Settings",
-                secondaryAction: {}
+                secondaryAction: { /* Preview only. */ }
             )
             SettingsWarningPill(
                 title: "Up to date",

@@ -128,8 +128,8 @@ public extension View {
                 checkboxOff: "Off"
             ),
             // The answers are not stored: the preview must leave the app's real settings alone.
-            onEnable: { _ in },
-            onDisable: {}
+            onEnable: { _ in /* Preview only. */ },
+            onDisable: { /* Preview only. */ }
         )
     }
 #endif

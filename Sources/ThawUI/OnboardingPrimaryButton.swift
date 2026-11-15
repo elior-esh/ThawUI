@@ -33,10 +33,10 @@ public struct OnboardingPrimaryButton<Label: View>: View {
 #if DEBUG
     #Preview("Primary button") {
         VStack(spacing: 16) {
-            OnboardingPrimaryButton(action: {}) {
+            OnboardingPrimaryButton(action: { /* Preview only. */ }) {
                 Text("Continue")
             }
-            OnboardingPrimaryButton(action: {}) {
+            OnboardingPrimaryButton(action: { /* Preview only. */ }) {
                 Text("Get started with a much longer title")
             }
         }

@@ -95,16 +95,16 @@ public extension ButtonStyle where Self == ThawGroupedButtonStyle {
     #Preview("Action group") {
         VStack(alignment: .leading, spacing: 16) {
             ThawActionGroup {
-                Button("Back") {}
-                Button("Forward") {}
+                Button("Back") { /* Preview only. */ }
+                Button("Forward") { /* Preview only. */ }
             }
             ThawActionGroup {
-                Button("One") {}
-                Button("Two") {}
-                Button("Three, disabled") {}.disabled(true)
+                Button("One") { /* Preview only. */ }
+                Button("Two") { /* Preview only. */ }
+                Button("Three, disabled") { /* Preview only. */ }.disabled(true)
             }
             ThawActionGroup {
-                Button("Alone") {}
+                Button("Alone") { /* Preview only. */ }
             }
         }
         .buttonStyle(.thawGrouped)
